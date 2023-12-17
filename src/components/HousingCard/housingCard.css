@@ -30,17 +30,6 @@
 
 }
 
-.Housing__Title {
-    color: white;
-    font-size: 18px;
-    position: relative;
-    width: 240px;
- 
-    bottom: 395px;
-    left: 20px;
-    margin: 0;
-}
-
 .Housing__Gradient {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
     width: 100%;
@@ -50,4 +39,15 @@
     position: relative;
     bottom: 345px;
     
- }
+}
+
+.Housing__Title {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    width: 240px;
+ 
+    bottom: 395px;
+    left: 20px;
+    margin: 0;
+} 

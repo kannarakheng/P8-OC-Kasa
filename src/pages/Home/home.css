@@ -1,0 +1,28 @@
+.BannerCtr {
+    width: 100%;
+    height: 223px;
+    margin: 70px 0;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ 
+.BannerCtr::after {
+    content: "Chez vous, partout et ailleurs...";
+    z-index: 1;
+    position: absolute;
+    color: white;
+    font-size: 27px;
+        
+}
+
+.BannerImg {
+    width: 100%;
+    height: 223px;
+    object-fit: cover;
+    border-radius: 30px;
+    filter: brightness(0.65);
+
+}
