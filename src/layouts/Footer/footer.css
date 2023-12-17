@@ -1,0 +1,15 @@
+.FooterCtr {
+    background-color: black;
+    height: 210px;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .Footer__Text {
+    color: white;
+    font-size: 18px;
+    
+ }
