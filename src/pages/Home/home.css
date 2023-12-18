@@ -10,11 +10,12 @@
 }
  
 .BannerCtr::after {
-    content: "Chez vous, partout et ailleurs...";
+    content: "Chez vous, partout et ailleurs";
     z-index: 1;
     position: absolute;
     color: white;
-    font-size: 27px;
+    font-size: 42px;
+    font-style: bold;
         
 }
 
