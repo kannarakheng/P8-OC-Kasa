@@ -12,6 +12,9 @@
     font-size: 288px;
     font-weight: 700;
     margin: 0;
+    @media (max-width: 1001px) {
+        font-size: 96px;
+    }
 }
 
 .Error__Text {
@@ -19,12 +22,18 @@
     font-weight: 500;
     margin: 0;
     width: 872px;
+    @media (max-width: 1001px) {
+        font-size: 22px
+    }
 }
 
 .LinkError {
     color: #FF6060;
     font-size: 18px;
     margin-top: 100px;
+    @media (max-width: 1001px) {
+        font-size: 14px;
+    }
 }
 
 .LinkError:hover {

@@ -18,11 +18,6 @@ function Header() {
                 <NavLink to="/about" className="StyledLink"> 
                     A Propos
                 </NavLink>
-
-                <NavLink to="/error" className="StyledLink"> 
-                    Error
-                </NavLink>
-
             </div>
         </nav>
     )
