@@ -34,7 +34,7 @@ function Housing() {
         {
             title: 'Equipements',
             text: housing.equipments.map(equipment => (
-                <p className='TextCollapse' key={equipment}>{equipment}</p>
+                <p className='Collapse__Text' key={equipment}>{equipment}</p>
             ))
         }
     ]
@@ -43,21 +43,21 @@ function Housing() {
         <>
         {housing.pictures && <Slider images={housing.pictures} />}
 
-        <section>
-            <div>
-                <h1>{housing.title}</h1>
-                <p>{housing.housing}</p>
-                <ul>
+        <section className="ContInfo">
+            <div className="ContInfoHousing">
+                <h1 className="TittleInfo">{housing.title}</h1>
+                <p className="TextInfo">{housing.housing}</p>
+                <ul className="TagUl">
                     {housing.tags.map(tag => (
-                        <li key={tag}>{tag}</li>
+                        <li className="TagLi" key={tag}>{tag}</li>
                     ))}
                 </ul>
             </div>
 
-            <div>
-                <div>
-                    <p>{housing.host.name}</p>
-                    <img src={housing.host.picture} alt={housing.host.name} />
+            <div className="ContInfoOwner">
+                <div className="CtT">
+                    <p className="TextInfoOwner">{housing.host.name}</p>
+                    <img className="ImgOwner" src={housing.host.picture} alt={housing.host.name} />
                 </div>
                 <Rating rating={housing.rating} />
             </div>

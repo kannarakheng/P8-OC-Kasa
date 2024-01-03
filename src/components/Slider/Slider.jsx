@@ -16,17 +16,17 @@ function Slider({ images }) {
     };
 
     return (
-        <section>
+        <section className="ContSlider">
             {images.length > 1 
             &&
             <>
-                <p>{ currentIndex + 1 } / {images.length}</p>
+                <p className="CountSlider">{ currentIndex + 1 } / {images.length}</p>
 
-                <img src={ArrowLeft} alt="Flèche gauche" onClick={nextImage} />
-                <img src={ArrowRight} alt="Flèche droite" onClick={prevImage} />
+                <img className="ArrowSliderLeft" src={ArrowLeft} alt="Flèche gauche" onClick={nextImage} />
+                <img className="ArrowSliderRight" src={ArrowRight} alt="Flèche droite" onClick={prevImage} />
             </>
             }
-            <img src={images[currentIndex]} alt="Housing" />
+            <img className="ImgSlider" src={images[currentIndex]} alt="Housing" />
         </section>
     )
 }
